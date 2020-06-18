@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 16px;
+  background-image: url(/public/img/pattern.jpg);
+}
+
+li,
+a {
+  font-weight: 500px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header {
+  background-color: whitesmoke;
+  display: flex;
+  /* color: rgb(17, 17, 68); */
+  justify-content: space-between;
+  padding: 5px 5%;
+  line-height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navLink {
+  list-style: none;
+}
+
+.navLink li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navLink a {
+  color: rgb(17, 17, 68);
+}
+
+.navLink a:hover {
+  color: rgb(116, 173, 248);
+}
+
+section {
+  top: 57px;
+  width: 70%;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+}
+section h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+article {
+  padding: 0 10px;
+  border-bottom: solid 2px black;
+}
+article h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+article p {
+  margin: 20px 0;
+}
+
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5%;
+  line-height: 50px;
+  position: relative;
+  top: 50px;
+}
